@@ -1,23 +1,25 @@
 body{
-  background-color: LightGreen;
+  background-color: #d88373;
   font-family: 'Courier New', monospace;
 }
 
+/* Note to self: https://coolors.co/023020-8fbc8f-f5b700 - color pal */
+
 h1{
-  background-color: hsl(40, 95%, 50%);
-  color: hsl(120, 73%, 75%);
+  background-color: rgb(245, 183, 0);
+  color: #d88373;
   padding: 20px;
 }
 
 h3{
   text-decoration: underline;
-  margin-left: 30px;
 }
 
-p{
-  margin-left: 30px;
+div{
+  margin-left: 70px;
 }
 
 .special-word{ 
-  color: rgb(188, 71, 73); 
+  color: darkgreen;
+  font-weight: bold;
 } 
