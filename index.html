@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <!-- Assign-01-HTML-CSS-JS -->
 <html lang="en-ca">
   <head>
@@ -25,6 +26,7 @@
   </head>
   
   <body>
+    
     <!-- Displayed Title-->
     <center><h1>Colours!</h1></center>
 
@@ -39,27 +41,111 @@
       <p>Basic colour theory is really simple, all you really have to do is remember these key terms and play around with the the different colour schemes.</p>
       <p>Here's a list of helpful terminology:</p>
   
-      <!-- list -->
-      <ul>
-        <li><span class="special-word">Hue</span> is the color itself.</li>
-        <li><span class="special-word">Saturation</span> is the intensity of the colour.</li>
-        <li><span class="special-word">Tint</span> is how light the colour is.</li>
-        <li><span class="special-word">Shade</span> is how dark the colour is.</li>
-      </ul>
-      <br></br>
-  
+      <!--  terminology list -->
+      <br>
+        <ul>
+          <li><span class="special-word">Hue</span> is the color itself.</li>
+          <li><span class="special-word">Saturation</span> is the intensity of the colour.</li>
+          <li><span class="special-word">Tint</span> is how light the colour is.</li>
+          <li><span class="special-word">Shade</span> is how dark the colour is.</li>
+        </ul>
+      </br>
+
+      <!-- Checklist from MDL -->
+      <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+        <thead>
+          <tr>
+            <th class="mdl-data-table__cell--non-numeric">Material</th>
+            <th>Quantity</th>
+            <th>Unit price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Acrylic (Transparent)</td>
+            <td>25</td>
+            <td>$2.90</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Plywood (Birch)</td>
+            <td>50</td>
+            <td>$1.25</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Laminate (Gold on Blue)</td>
+            <td>10</td>
+            <td>$2.35</td>
+          </tr>
+        </tbody>
+      </table>
+      
       <!-- Textfield with Floating Label -->
       <p>before you learn more...</p>
       <form action="#">
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
           <input class="mdl-textfield__input" type="text" id="sample3">
           <label class="mdl-textfield__label" for="sample3">What is your favorite colour?</label>
-          <br></br>
-
-          
-          
         </div>
       </form>
+      <br></br>
+
+      <!-- table -->
+      <center>
+        <table>
+          <!-- row 1 -->
+          <tr>
+            <th>Names</th>
+            <th>Image</th>
+            <th>Description</th>
+          </tr>
+  
+          <!-- row 2 -->
+          <tr>
+            <td>Monochrome</td>
+            <td><center><img src="./images/mono.jpg" alt="monochrome image" width="400px" height="300px"></center></td>
+            <td>
+              <ul>
+                <li>It's Just one colour.</li>
+                <li>Different <span class="special-word"> tints</span>/<span class="special-word"> shades</span>/<span class="special-word"> saturation</span>.</li>
+              </ul>
+            </td>
+          </tr>
+  
+          <!-- row 3 -->
+          <tr>
+            <td>Analogous</td>
+            <td><center><img src="./images/Analogous.jpeg" alt="analogous image" width="400px" height="280px"></center></td>
+            <td>
+              <ul>
+                <li>Three colours that are next to each other on the colour wheel.</li>
+              </ul>
+            </td>
+          </tr>
+  
+          <!-- row 4 -->
+          <tr>
+            <td>Complimentary</td>
+            <td><center><img src="./images/complimentary.jpeg" alt="complmentary image" width="400px" height="270px"></center></td>
+            <td>
+              <ul>
+                <li>Colours that are opposite to each other on the colour wheel.</li>
+              </ul>
+            </td>
+          </tr>
+  
+          <!-- row 5 -->
+          <tr>
+            <td>Triatic</td>
+            <td><center><img src="./images/triatic.jpg" alt="triatic image" width="300px" height="300px"></center></td>
+            <td>
+              <ul>
+                <li>Colours that form an equalateral triangle on the colour wheel if connected with a line.                  </li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </center>
+      
     </div>
   </body>
 </html>

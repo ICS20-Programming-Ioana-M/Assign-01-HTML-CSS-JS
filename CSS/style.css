@@ -5,21 +5,36 @@ body{
 
 /* Note to self: https://coolors.co/023020-8fbc8f-f5b700 - color pal */
 
+/* stylization of header 1 */
 h1{
   background-color: rgb(245, 183, 0);
   color: #d88373;
   padding: 20px;
 }
 
+/* stylization of header 3 */
 h3{
   text-decoration: underline;
+  color: rgb(245, 183, 0);
 }
 
+/* making a margin */
 div{
   margin-left: 70px;
 }
 
+/* to colour certain parts of text */
 .special-word{ 
-  color: darkgreen;
+  color: midnightblue;
   font-weight: bold;
 } 
+
+/* Table boarders and size */
+td, th {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+  border: 1px solid black;
+}
