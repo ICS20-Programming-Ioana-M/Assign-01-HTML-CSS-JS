@@ -1,23 +1,23 @@
 body{
-  background-color: #d88373;
+  background-color: #B8BE77;
 }
 
 /* stylization of header 1 */
 h1{
-  background-color: rgb(245, 183, 0);
-  color: #d88373;
+  background-color: rgb(221, 226, 54);
+  color: #B8BE77;
   padding: 20px;
 }
 
 /* stylization of header 3 */
 h3{
   text-decoration: underline;
-  color: rgb(245, 183, 0);
+  color: rgb(221, 226, 54);
 }
 
 /* to colour specific parts of text */
 .special-word{ 
-  color: midnightblue;
+  color: hsl(240, 55%, 22%);
   font-weight: bold;
 } 
 

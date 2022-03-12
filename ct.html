@@ -1,0 +1,184 @@
+`  <!DOCTYPE html>
+
+<!-- Assignment-01-HTML-CSS-JS -->
+<html lang="en-ca">
+  <head>
+
+    <!-- metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="My First Major Assignment Webpage">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Ioana Marinescu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title + stylesheet -->
+    <title>Colours!</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+
+    <!-- Google's MDL -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-lime.min.css" />
+
+    <!-- Google's MDL -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </head>
+  
+  <body>
+    <!-- Displayed Title-->
+    <center>
+      <h1>Colours!</h1>
+      <p>Click <a href="https://assign-01-html-css-js-1.ioanamarinescu1.repl.co/" class="special-word">here</a> to go back to the main page.</p>
+    </center>
+    
+    <!-- Information on Subject-->
+    <h3 class="mar"> Colour Theory:</h3>
+    <p class="mar">Basic colour theory is really simple, all you really have to do is remember these key terms and play around with the the different colour schemes.</p>
+    <p class="mar">Here's a list of helpful terminology:</p>
+
+    <!--  terminology list -->
+
+    <ul class="mar">
+      <li><span class="special-word">Hue</span> is the color itself.</li>
+      <li><span class="special-word">Saturation</span> is the intensity of the colour.</li>
+      <li><span class="special-word">Tint</span> is how light the colour is.</li>
+      <li><span class="special-word">Shade</span> is how dark the colour is.</li>
+    </ul>
+    <br>
+    
+    <!-- Checklist from MDL -->
+    <center>
+      <h5>So before moving on, what's your favorite color?</h5>
+      <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+        <thead>
+          <tr>
+            <th class="mdl-data-table__cell--non-numeric">ALL OF THEM!!!</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Red</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Orange</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Yellow</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Green</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Blue</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Purple</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Pink</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">Yes</td>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">NO. NOT COLOURS. THEY'RE MY SWORN ENEMY</td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric">What happens if I check this one off? (spoiler: nothing happens)</td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+    <br>
+  
+    <!-- table -->
+    <h3 class="mar">Colour Schemes:</h3>
+    <table class="table" class="mar">
+      <!-- row 1 -->
+      <tr>
+        <th>Names</th>
+        <th>Image</th>
+        <th>Description</th>
+      </tr>
+
+      <!-- row 2 -->
+      <tr>
+        <td>Monochrome</td>
+        <td><center><img src="./images/mono.jpg" alt="monochrome image" width="400px" height="300px"></center></td>
+        <td>
+          <ul>
+            <li>It's Just one colour.</li>
+            <li>Different <span class="special-word"> tints</span>/<span class="special-word"> shades</span>/<span class="special-word"> saturation</span>.</li>
+          </ul>
+        </td>
+      </tr>
+
+      <!-- row 3 -->
+      <tr>
+        <td>Analogous</td>
+        <td><center><img src="./images/Analogous.jpeg" alt="analogous image" width="400px" height="280px"></center></td>
+        <td>
+          <ul>
+            <li>Three colours that are next to each other on the colour wheel.</li>
+          </ul>
+        </td>
+      </tr>
+
+      <!-- row 4 -->
+      <tr>
+        <td>Complimentary</td>
+        <td><center><img src="./images/complimentary.jpeg" alt="complmentary image" width="400px" height="270px"></center></td>
+        <td>
+          <ul>
+            <li>Colours that are opposite to each other on the colour wheel.</li>
+          </ul>
+        </td>
+      </tr>
+
+      <!-- row 5 -->
+      <tr>
+        <td>Triatic</td>
+        <td><center><img src="./images/triatic.jpg" alt="triatic image" width="300px" height="300px"></center></td>
+        <td>
+          <ul>
+            <li>Colours that form an equalateral triangle on the colour wheel if connected with a line.                  </li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <br>
+
+    <!-- Textfield with Floating Label -->
+    <center>
+      <p>bonus summary question:</p>
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample3">
+            <label class="mdl-textfield__label" for="sample3">What colour scheme is this website themed around?</label>
+          </div>
+        </form>
+        <p>You can check your answer by clicking...</p>
+  
+        <!-- Button displaying answers -->
+        <script>
+      function myButtonClicked() {
+        alert("Get billzoned ;)")
+        alert("The answer is triatic colour scheme by the way.")
+      }
+    </script>
+  <center>
+          <!-- Raised button -->
+          <button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+            Here
+          </button>
+          <br></br>
+      </center>
+    </center>
+    <br>
+    <br>
+  </body>
+</html>
